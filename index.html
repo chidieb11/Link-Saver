@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./inde.css">
+    <title>Link Saver</title>
+</head>
+<body>
+    <nav>
+        <div class="container" id="nav-container">
+            <h1 class="nav-header">Link Saver</h1>
+            <a id="add-btn">+</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="panel" id="addLinkPanel">
+            <h3 class="panel-heading">Add Link</h3>
+            <form id="add-link-form">
+                <input type="text" name="title" placeholder="Title" id="link-title" class="form-control">
+                <input type="text" name="title" placeholder="Url" id="link-title" class="form-control">
+                <input type="text" name="title" placeholder="Catetgories (comma seperated)" id="link-title" class="form-control">
+
+                <div id="added-category">
+
+                </div>
+
+                <input type="submit" name="submit" value="submit" id="submit-button">
+                <input type="submit" name="cancel" value="cancel" id="cancel-button">
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
